@@ -1,25 +1,21 @@
 # tsconfig-lollipop
 
-## Hightlights
+## Highlights
 
- - Only TypeScript allowed
- - As strict as possible
- - ESM output
- - Fast (incremental)
+- Only TypeScript allowed
+- As strict as possible
+- ESM output
+- Fast (incremental)
 
-## Configs
+## Usage
 
-### Base
+`tsconfig.json`
 
-### Node
-
-Targets the latest LTS release of Node
-
-> Contains all the options in `base`
-
-### React
-
-Targets the latest version of React
-
-> Contains all the options in `base`
-
+```json
+{
+  "extends": "tsconfig-one/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist"
+  }
+}
+```

@@ -1,9 +1,7 @@
 {
   "compilerOptions": {
     // Configuration
-    "lib": [
-      "esnext"
-    ],
+    "lib": ["esnext"],
     "module": "esnext",
     "target": "esnext",
     "moduleResolution": "node",
@@ -25,6 +23,6 @@
     "importsNotUsedAsValues": "error",
     // Experiments
     "noPropertyAccessFromIndexSignature": true,
-    "exactOptionalPropertyTypes": true,
+    "exactOptionalPropertyTypes": true
   }
 }

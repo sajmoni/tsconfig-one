@@ -1,0 +1,31 @@
+{
+  "name": "tsconfig-one",
+  "version": "0.0.0",
+  "description": "Strict tsconfig - TS and ESM only",
+  "scripts": {
+    "release": "np --no-tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajmoni/tsconfig-one.git"
+  },
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "ts",
+    "config",
+    "configuration"
+  ],
+  "files": [
+    "tsconfig.json"
+  ],
+  "author": "sajmoni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sajmoni/tsconfig-one/issues"
+  },
+  "homepage": "https://github.com/sajmoni/tsconfig-one#readme",
+  "devDependencies": {
+    "np": "7.6.1"
+  }
+}
