@@ -9,6 +9,10 @@
 
 ## Usage
 
+```sh
+npm install --save-dev tsconfig-one
+```
+
 `tsconfig.json`
 
 ```json
