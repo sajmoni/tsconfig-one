@@ -1,10 +1,10 @@
-# tsconfig-lollipop
+# tsconfig-one
 
 ## Highlights
 
-- Only TypeScript allowed
 - As strict as possible
 - ESM output
+- Only TypeScript allowed
 - Fast (incremental)
 
 ## Usage
@@ -16,6 +16,7 @@
   "extends": "tsconfig-one/tsconfig.json",
   "compilerOptions": {
     "outDir": "dist"
-  }
+  },
+  "include": ["src"]
 }
 ```
