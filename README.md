@@ -5,6 +5,7 @@
 - As strict as possible
 - ESM output
 - Only TypeScript allowed
+- Forces usage of `import type`
 - Fast (incremental)
 
 ## Usage
