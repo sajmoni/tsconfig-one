@@ -6,7 +6,6 @@
 - ESM output
 - Only TypeScript allowed
 - Forces usage of `import type`
-- Fast (incremental)
 
 ## Usage
 
@@ -23,5 +22,17 @@ npm install --save-dev tsconfig-one
     "outDir": "dist"
   },
   "include": ["src"]
+}
+```
+
+### Application
+
+Recommended additions if your project is an application:
+
+```json
+{
+  "compilerOptions": {
+    "incremental": true
+  }
 }
 ```

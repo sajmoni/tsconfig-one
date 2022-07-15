@@ -6,7 +6,6 @@
     "target": "esnext",
     "moduleResolution": "node",
     "strict": true,
-    "incremental": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
