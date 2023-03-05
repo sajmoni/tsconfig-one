@@ -19,7 +19,7 @@
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "importsNotUsedAsValues": "error",
+    "verbatimModuleSyntax": true,
     // Experiments
     "noPropertyAccessFromIndexSignature": true,
     "exactOptionalPropertyTypes": true
