@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "description": "Strict tsconfig - TS and ESM only",
   "scripts": {
+    "test": "tsc",
     "release": "np --no-tests"
   },
   "repository": {
@@ -26,6 +27,7 @@
   },
   "homepage": "https://github.com/sajmoni/tsconfig-one#readme",
   "devDependencies": {
-    "np": "7.6.3"
+    "np": "7.6.3",
+    "typescript": "5.1.0-dev.20230305"
   }
 }
