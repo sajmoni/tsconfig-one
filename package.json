@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/sajmoni/tsconfig-one#readme",
   "peerDependencies": {
-    "typescript": ">=5"
+    "typescript": "5.x"
   },
   "devDependencies": {
     "np": "7.6.3",
