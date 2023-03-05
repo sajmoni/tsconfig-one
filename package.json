@@ -26,6 +26,9 @@
     "url": "https://github.com/sajmoni/tsconfig-one/issues"
   },
   "homepage": "https://github.com/sajmoni/tsconfig-one#readme",
+  "peerDependencies": {
+    "typescript": ">=5"
+  },
   "devDependencies": {
     "np": "7.6.3",
     "typescript": "5.1.0-dev.20230305"
