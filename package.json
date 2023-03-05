@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/sajmoni/tsconfig-one#readme",
   "devDependencies": {
-    "np": "7.6.1"
+    "np": "7.6.3"
   }
 }
