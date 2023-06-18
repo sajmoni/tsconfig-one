@@ -19,10 +19,7 @@ npm install --save-dev tsconfig-one
 ```json
 {
   "extends": "tsconfig-one/tsconfig.json",
-  "compilerOptions": {
-    "outDir": "dist"
-  },
-  "include": ["src"]
+  "compilerOptions": {}
 }
 ```
 

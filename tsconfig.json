@@ -11,6 +11,7 @@
     "resolveJsonModule": true,
     "allowJs": false,
     "declaration": true,
+    "outDir": "dist",
     // QA
     "noUncheckedIndexedAccess": true,
     "noFallthroughCasesInSwitch": true,
@@ -28,5 +29,6 @@
     "paths": {
       "~/*": ["./*"]
     }
-  }
+  },
+  "include": ["src"]
 }
