@@ -12,7 +12,6 @@
     "allowJs": false,
     "declaration": true,
     "outDir": "../../dist",
-    "exclude": ["node_modules"],
     "jsx": "react-jsx",
     // QA
     "noUncheckedIndexedAccess": true,
@@ -32,5 +31,6 @@
       "~/*": ["../../*"]
     }
   },
-  "include": ["**/*.ts", "**/*.tsx"]
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
 }
