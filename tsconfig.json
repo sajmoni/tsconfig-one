@@ -11,7 +11,6 @@
     "resolveJsonModule": true,
     "allowJs": false,
     "declaration": true,
-    "outDir": "../../dist",
     "jsx": "react-jsx",
     // QA
     "noUncheckedIndexedAccess": true,
@@ -24,13 +23,6 @@
     "verbatimModuleSyntax": true,
     // Experiments
     "noPropertyAccessFromIndexSignature": true,
-    "exactOptionalPropertyTypes": true,
-    // Enable absolute imports with ~/
-    "baseUrl": "../../src",
-    "paths": {
-      "~/*": ["../../*"]
-    }
-  },
-  "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+    "exactOptionalPropertyTypes": true
+  }
 }

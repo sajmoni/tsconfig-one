@@ -6,7 +6,6 @@
 - ESM output
 - Only TypeScript allowed
 - Forces usage of `import type`
-- Enables absolute imports
 
 ## Usage
 
@@ -19,7 +18,10 @@ npm install --save-dev tsconfig-one
 ```json
 {
   "extends": "tsconfig-one/tsconfig.json",
-  "compilerOptions": {}
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "include": ["src"]
 }
 ```
 
@@ -33,24 +35,4 @@ Recommended additions if your project is an application:
     "incremental": true
   }
 }
-```
-
-### Absolute imports
-
-Import files with `~/`. Assumes a `./src` folder.
-
-**Example**
-
-`src/example.ts` -> `~/example`
-
-**vite**
-
-If using `vite`, add this to your `vite.config.ts`
-
-```ts
-resolve: {
-    alias: {
-      '~': resolve(__dirname, 'src'),
-    },
-  },
 ```
