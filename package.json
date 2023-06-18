@@ -1,6 +1,6 @@
 {
   "name": "tsconfig-one",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Strict tsconfig - TS and ESM only",
   "scripts": {
     "test": "tsc",
