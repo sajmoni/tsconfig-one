@@ -22,6 +22,11 @@
     "verbatimModuleSyntax": true,
     // Experiments
     "noPropertyAccessFromIndexSignature": true,
-    "exactOptionalPropertyTypes": true
+    "exactOptionalPropertyTypes": true,
+    // Enable absolute imports with ~/
+    "baseUrl": "./src",
+    "paths": {
+      "~/*": ["./*"]
+    }
   }
 }
