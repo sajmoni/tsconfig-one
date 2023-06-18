@@ -30,7 +30,7 @@
     "typescript": "5.x"
   },
   "devDependencies": {
-    "np": "7.6.3",
-    "typescript": "5.1.0-dev.20230305"
+    "np": "8.0.4",
+    "typescript": "5.1.3"
   }
 }
