@@ -37,7 +37,7 @@ Recommended additions if your project is an application:
 
 ### Absolute imports
 
-Import files with `~/`
+Import files with `~/`. Assumes a `./src` folder.
 
 **Example**
 

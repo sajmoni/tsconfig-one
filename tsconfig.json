@@ -27,9 +27,9 @@
     "noPropertyAccessFromIndexSignature": true,
     "exactOptionalPropertyTypes": true,
     // Enable absolute imports with ~/
-    "baseUrl": "./src",
+    "baseUrl": "../../src",
     "paths": {
-      "~/*": ["./*"]
+      "~/*": ["../../*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx"]
