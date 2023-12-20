@@ -1,7 +1,7 @@
 {
   "name": "tsconfig-one",
   "version": "0.0.8",
-  "description": "Strict tsconfig - TS and ESM only",
+  "description": "Strict tsconfig",
   "scripts": {
     "test": "tsc",
     "release": "np --no-tests"
@@ -25,10 +25,6 @@
   ],
   "author": "sajmoni",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sajmoni/tsconfig-one/issues"
-  },
-  "homepage": "https://github.com/sajmoni/tsconfig-one#readme",
   "peerDependencies": {
     "typescript": "5.x"
   },
