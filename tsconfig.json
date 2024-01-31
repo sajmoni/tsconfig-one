@@ -11,6 +11,7 @@
     "resolveJsonModule": true,
     "allowJs": false,
     "declaration": true,
+    "newLine": "lf",
     "jsx": "react-jsx",
     // == QA ==
     "noUncheckedIndexedAccess": true,
