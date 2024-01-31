@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    // Configuration
     "lib": ["esnext"],
+    // == Configuration ==
     "module": "esnext",
     "target": "esnext",
     "moduleResolution": "node",
@@ -12,7 +12,7 @@
     "allowJs": false,
     "declaration": true,
     "jsx": "react-jsx",
-    // QA
+    // == QA ==
     "noUncheckedIndexedAccess": true,
     "noFallthroughCasesInSwitch": true,
     "forceConsistentCasingInFileNames": true,
@@ -21,7 +21,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "verbatimModuleSyntax": true,
-    // Experiments
+    // == Experiments ==
     "noPropertyAccessFromIndexSignature": true,
     "exactOptionalPropertyTypes": true
   }
