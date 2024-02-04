@@ -36,3 +36,9 @@ Recommended additions if your project is an application:
   }
 }
 ```
+
+### FAQ
+
+#### Why is not "outDir" included?
+
+See https://github.com/microsoft/TypeScript/issues/29172
