@@ -26,10 +26,10 @@
   "author": "sajmoni",
   "license": "MIT",
   "peerDependencies": {
-    "typescript": "5.x"
+    "typescript": ">=5.5"
   },
   "devDependencies": {
-    "np": "9.2.0",
-    "typescript": "5.3.3"
+    "np": "10.0.5",
+    "typescript": "5.5.0-beta"
   }
 }

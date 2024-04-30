@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
-    "lib": ["esnext"],
     // == Configuration ==
+    "lib": ["esnext"],
+    "outDir": "${configDir}/dist",
     "module": "esnext",
     "target": "esnext",
     "moduleResolution": "node",
@@ -23,8 +24,8 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "verbatimModuleSyntax": true,
-    // == Experiments ==
     "noPropertyAccessFromIndexSignature": true,
     "exactOptionalPropertyTypes": true
+    // == Experiments ==
   }
 }
