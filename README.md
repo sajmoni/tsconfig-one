@@ -4,10 +4,21 @@
 
 - As strict as possible
 - ESM output
-- Only TypeScript allowed
 - Forces usage of `import type`
 
+_Requires TypeScript version >5.5_
+
 ## Usage
+
+### Automatic (Recommended)
+
+Use [setup-typescript](https://github.com/sajmoni/setup-typescript)
+
+```console
+npx setup-typescript@latest
+```
+
+### Manual
 
 ```console
 npm install --save-dev tsconfig-one
@@ -18,9 +29,6 @@ npm install --save-dev tsconfig-one
 ```json
 {
   "extends": "tsconfig-one/tsconfig.json",
-  "compilerOptions": {
-    "outDir": "dist"
-  },
   "include": ["src"]
 }
 ```
@@ -36,9 +44,3 @@ Recommended additions if your project is an application:
   }
 }
 ```
-
-### FAQ
-
-#### Why is not "outDir" included?
-
-See https://github.com/microsoft/TypeScript/issues/29172
