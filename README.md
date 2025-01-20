@@ -1,6 +1,6 @@
 # tsconfig-one
 
-## Highlights
+## :sparkles: Highlights
 
 - As strict as possible
 - ESM output
@@ -8,14 +8,14 @@
 
 _Requires TypeScript version >5.5_
 
-## Usage
+## :wrench: Usage
 
 ### Automatic (Recommended)
 
 Use [setup-typescript](https://github.com/sajmoni/setup-typescript)
 
 ```console
-npx setup-typescript@latest
+npx setup-typescript@latest node|web|lib|base
 ```
 
 ### Manual
@@ -28,19 +28,53 @@ npm install --save-dev tsconfig-one
 
 ```json
 {
-  "extends": "tsconfig-one/tsconfig.json",
+  "extends": "tsconfig-one/tsconfig.web.json",
   "include": ["src"]
 }
 ```
 
-### Application
+### Configs
 
-Recommended additions if your project is an application:
+#### Lib
+
+Use if your project is a library
 
 ```json
 {
-  "compilerOptions": {
-    "incremental": true
-  }
+  "extends": "tsconfig-one/tsconfig.lib.json",
+  "include": ["src"]
+}
+```
+
+#### App - Node
+
+Use if your project is a Nodejs application
+
+```json
+{
+  "extends": "tsconfig-one/tsconfig.node.json",
+  "include": ["src"]
+}
+```
+
+#### App - Web
+
+Use if your project is a Web application
+
+```json
+{
+  "extends": "tsconfig-one/tsconfig.web.json",
+  "include": ["src"]
+}
+```
+
+#### Base
+
+Only use this one if your for some reason cannot use any of the other ones
+
+```json
+{
+  "extends": "tsconfig-one/tsconfig.base.json",
+  "include": ["src"]
 }
 ```

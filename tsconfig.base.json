@@ -7,8 +7,6 @@
     "target": "esnext",
     "moduleResolution": "node",
     "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
     "resolveJsonModule": true,
     "allowJs": false,
     "declaration": true,
@@ -25,7 +23,9 @@
     "noUnusedParameters": true,
     "verbatimModuleSyntax": true,
     "noPropertyAccessFromIndexSignature": true,
-    "exactOptionalPropertyTypes": true
+    "exactOptionalPropertyTypes": true,
     // == Experiments ==
+    "esModuleInterop": false,
+    "skipLibCheck": false
   }
 }
