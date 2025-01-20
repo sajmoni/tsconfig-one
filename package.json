@@ -21,7 +21,10 @@
     "configuration"
   ],
   "files": [
-    "tsconfig.json"
+    "tsconfig.base.json",
+    "tsconfig.lib.json",
+    "tsconfig.node.json",
+    "tsconfig.web.json"
   ],
   "author": "sajmoni",
   "license": "MIT",
