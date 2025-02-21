@@ -3,9 +3,9 @@
     // == Configuration ==
     "lib": ["esnext"],
     "outDir": "${configDir}/dist",
-    "module": "esnext",
+    "module": "nodenext",
     "target": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -26,6 +26,5 @@
     "verbatimModuleSyntax": true,
     "noPropertyAccessFromIndexSignature": true,
     "exactOptionalPropertyTypes": true
-    // == Experiments ==
   }
 }
